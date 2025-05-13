@@ -1,0 +1,118 @@
+.employee-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(127, 85, 177, 0.1), 0 2px 4px -1px rgba(127, 85, 177, 0.06);
+}
+
+.employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.employee-form h2 {
+  margin: 0;
+  color: #7F55B1;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #9B7EBD;
+  font-size: 0.875rem;
+  letter-spacing: 0.025em;
+}
+
+.form-group input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #FFE1E0;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  background-color: #ffffff;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #7F55B1;
+  box-shadow: 0 0 0 3px rgba(127, 85, 177, 0.1);
+  background-color: #ffffff;
+}
+
+.form-group input.error {
+  border-color: #F49BAB;
+  background-color: #FFE1E0;
+}
+
+.form-group input.error:focus {
+  box-shadow: 0 0 0 3px rgba(244, 155, 171, 0.1);
+}
+
+.error-message {
+  color: #F49BAB;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.submit-btn, .cancel-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+}
+
+.submit-btn {
+  background-color: #7F55B1;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #9B7EBD;
+  transform: translateY(-1px);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.cancel-btn {
+  background-color: #FFE1E0;
+  color: #7F55B1;
+}
+
+.cancel-btn:hover {
+  background-color: #F49BAB;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.cancel-btn:active {
+  transform: translateY(0);
+} 
